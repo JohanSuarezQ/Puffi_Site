@@ -1,0 +1,34 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
+    grid-auto-rows: 1fr 1fr;
+    padding: 5rem 24rem;
+    justify-content: center;
+    justify-items: center;
+    grid-gap: 5px;
+  }
+  
+  .gallery-items {
+    max-width: 200px;
+  }
+    
+  .gallery-container{
+      padding: 3rem 0;  
+  }
+  
+  .gallery-container h1, h2, h3{
+      text-align: center;
+    text-transform: uppercase;
+  }
+
+  .gallery-container h3{
+    color: $dark-light;
+    font-weight: 100;
+  }
+
+  .gallery-container h2{
+    font-size: 3rem;
+    font-weight: 100;
+  }
+
+ 
